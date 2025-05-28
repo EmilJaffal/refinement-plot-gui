@@ -1,7 +1,7 @@
-setuptools>=69.0.0
-wheel>=0.42.0
-pip>=23.3
-Dash==2.3.1
-pandas==1.5.3
-plotly==5.10.0
-numpy==1.23.5
+setuptools==68.2.2
+wheel==0.41.2
+pip==23.3.1
+Dash==2.17.1
+pandas==2.2.3
+plotly==5.23.0
+numpy==1.26.4
