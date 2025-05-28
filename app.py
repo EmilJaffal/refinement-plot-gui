@@ -633,4 +633,5 @@ COMPOSITION_COLORS = ['red', 'green', 'blue', 'magenta', 'orange', 'cyan', 'blac
 # (Optional) You can add a callback for "Update Plot" to update the graph using the input values if you want interactive axis control.
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    port = int(os.environ.get('PORT', 8050))  # Use the PORT environment variable set by Heroku
+    app.run_server(debug=False, host='0.0.0.0', port=port)  # Set debug=False for production
